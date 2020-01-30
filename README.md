@@ -1,5 +1,11 @@
-# previsaodedemandabimbo
-Previsão de demanda Grupo Bimbo
+# Previsão de demanda Grupo Bimbo
+
+O Grupo Bimbo realizou uma competição através do kaggle para previsão de demanda dos seus produtos no México.
+O data set disponibilizado continha algumas informações sobre a venda dos produtos, como descrito abaixo no dicionário dos dados.
+No total tinham 9 semanas de dados disponibilizados no data set, então as semanas 3, 4, 5, 6, 7 e 8 foram utilizados como treinamento para o modelo e a semana 9 para teste e avaliaçõa.
+A avaliação se deu por meio do Root Mean Squared Logarithmic Error (RMSLE).
+
+Segue abaixo o link com todas as informações da competição e o data set necessário para avaliação.
 https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 Dicionário:
