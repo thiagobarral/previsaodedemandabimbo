@@ -1,14 +1,14 @@
 # Previsão de demanda Grupo Bimbo
 
-O Grupo Bimbo realizou uma competição através do kaggle para previsão de demanda dos seus produtos no México.
-O data set disponibilizado continha algumas informações sobre a venda dos produtos, como descrito abaixo no dicionário dos dados.
-No total tinham 9 semanas de dados disponibilizados no data set, então as semanas 3, 4, 5, 6, 7 e 8 foram utilizados como treinamento para o modelo e a semana 9 para teste e avaliaçõa.
+O Grupo Bimbo (https://www.grupobimbo.com), se esforça para atender a demanda diária dos consumidores por produtos frescos de panificação nas prateleiras de mais de 1 milhão de lojas ao longo das suas 45.000 lojas em todo o México.
+Atualmente, os cálculos diários de estoque são realizados por funcionários de vendas de entregas diretas, que devem, sozinhos, prever a necessidade de estoque dos produtos e demanda com base em suas experiências pessoais em cada loja. Como alguns pães têm uma vida útil de uma semana, a margem aceitável para o erro é pequena.
+Neste projeto de aprendizado de máquina, eu desenvolvi um modelo para prever a demanda de estoque com base nos dados
+históricos de vendas. Isso fará com que os consumidores dos mais de 100 produtos de panificação não fiquem olhando para as prateleiras vazias, além de reduzir o valor gasto com reembolsos para os proprietários de lojas com produtos
+excedentes impróprios para venda. Para a construção desse projeto, utilizei a linguagem
+R e os datasets disponíveis no Kaggle em: https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 A avaliação se deu por meio do Root Mean Squared Logarithmic Error (RMSLE).
 
 Esse projeto foi realizado como avaliação para o curso de formação de cientista de dados da Data Science Academy.
-
-Segue abaixo o link com todas as informações da competição e o data set necessário para avaliação.
-https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 Dicionário:
 Semana — Week number (From Thursday to Wednesday)
